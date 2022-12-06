@@ -1,0 +1,28 @@
+* {
+    box-sizing: border-box;
+    margin: 1em;
+}
+
+body {
+    /*background-color: olivedrab;*/
+}
+
+
+h2 {
+    font-weight: bold;
+    color: #006AFF;
+}
+
+.year {
+    font-weight: bold;
+    color: aquamarine;
+}
+
+.location {
+    font-weight: bold;
+    color: khaki;
+}
+
+p {
+    color: orangered;
+}
