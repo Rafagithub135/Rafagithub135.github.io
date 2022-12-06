@@ -1,0 +1,20 @@
+h1 {
+    color: darkslategray;
+    align-content: flex-end;
+    text-align: center;
+    font-size: 60px;
+}
+
+.container {
+     background-image: url("/Images/construction.jpeg");
+     background-repeat: no-repeat;
+     background-size: cover;
+ }
+
+.container-fluid {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
