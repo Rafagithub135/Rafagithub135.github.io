@@ -44,14 +44,17 @@ h1 {
 
 .ccaf {
     background-color: #172C7F;
+    color: white;
 }
 
 .usmc1 {
     background-color: #D8AF36;
+    color: navy;
 }
 
 .usmc2 {
     background-color: #DC1311;
+    color: navy;
 }
 
 .miramar {
@@ -66,4 +69,5 @@ h1 {
 
 .madison {
     background-color: #1F2C4C;
+    color: white;
 }
