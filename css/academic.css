@@ -32,14 +32,17 @@ h1 {
 
 .codeup {
     background-color: #7CB342;
+    color: yellow;
 }
 
 .devry {
     background-color: #CFA314;
+    color: blue;
 }
 
 .mercer {
     background-color: #00662F;
+    color: gold;
 }
 
 .ccaf {
@@ -59,6 +62,7 @@ h1 {
 
 .miramar {
     background-color: #066A78;
+    color: cyan;
 }
 
 #miramar {
