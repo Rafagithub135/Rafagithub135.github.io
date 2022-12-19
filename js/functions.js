@@ -1,18 +1,37 @@
-function calculateAge() {
-    let today = new Date();
-    let workStart = new Date("April 10, 1983");
-    let age = today.getFullYear() - workStart.getFullYear();
-    let m = today.getMonth() - workStart.getMonth();
-    if (m < 0 || (m === 0 && today.getDate() < workStart.getDate())) {
-        age--;
+"use strict";
+
+(() => {
+
+    function calculateAge() {
+        let today = new Date();
+        let workStart = new Date("April 10, 1983");
+        let age = today.getFullYear() - workStart.getFullYear();
+        let m = today.getMonth() - workStart.getMonth();
+        if (m < 0 || (m === 0 && today.getDate() < workStart.getDate())) {
+            age--;
+        }
+        return age;
     }
-    return age;
+
+    calculateAge(new Date());
+
+
+    const skills1 = ['HTML', 'CSS', 'JavaScript', 'Ajax', 'Bootstrap', 'Jquery', 'Computer Network Wiring']
+
+    const skills2 = ['General Aircraft Mechanic', 'General Automotive Mechanic', 'General Diesel Mechanic', 'Real Estate Investor Apprentice', 'Nationally Certified Tow Operator'];
+
+    const skills3 = ['General Household Electrical Wiring', 'General Household Plumbing Work', 'General Construction'];
+
+for (let skill of skills1) {
+    document.querySelector("#skill-list1").innerHTML += `<li>${skill}</li>`;
 }
 
-calculateAge(new Date());
+for (let skill of skills2) {
+    document.querySelector("#skill-list2").innerHTML += `<li>${skill}</li>`;
+}
 
+for (let skill of skills3) {
+    document.querySelector("#skill-list3").innerHTML += `<li>${skill}</li>`;
+}
 
-let skills = ['HTML', 'CSS', 'JavaScript', 'Ajax', 'Bootstrap', 'Jquery', 'Computer Network Wiring', 'General Aircraft Mechanic', 'General Automotive Mechanic', 'General Diesel Mechanic', 'Real Estate Investor Apprentice', 'Nationally Certified Tow Operator', 'General Household Electrical Wiring', 'General Household Plumbing Work', 'General Construction']
-
-
-skill => `<li>${#skills-list}</li>`;
+})();
