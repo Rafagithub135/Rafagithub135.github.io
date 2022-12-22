@@ -13,6 +13,10 @@ h2 {
     color: #006AFF;
 }
 
+p {
+    color: orangered;
+}
+
 .year {
     font-weight: bold;
     color: aquamarine;
@@ -23,6 +27,10 @@ h2 {
     color: khaki;
 }
 
-p {
-    color: orangered;
+#vetInd {
+    background-color: #629BCD;
+}
+
+#lyft {
+    background-color: #FF00E2;
 }
