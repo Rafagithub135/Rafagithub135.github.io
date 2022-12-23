@@ -1,7 +1,5 @@
 "use strict";
 
-// (() => {
-
     function calculateAge() {
         let today = new Date();
         let workStart = new Date("April 10, 1983");
@@ -15,6 +13,7 @@
 
     calculateAge(new Date());
 
+    (() => {
 
     const skills = ['HTML', 'CSS', 'JavaScript', 'Ajax', 'Bootstrap', 'Jquery', 'Computer Network Wiring']
 
@@ -23,15 +22,15 @@
     const skills3 = ['General Household Electrical Wiring', 'General Household Plumbing Work', 'General Construction'];
 
     for (let skill of skills) {
-        document.querySelector("#skill-list1").innerHTML += `<li>${skill}</li>`;
+        document.querySelector("#skills-list1").innerHTML += `<li>${skill}</li>`;
     }
 
     for (let skill of skills2) {
-        document.querySelector("#skill-list2").innerHTML += `<li>${skill}</li>`;
+        document.querySelector("#skills-list2").innerHTML += `<li>${skill}</li>`;
     }
 
     for (let skill of skills3) {
-        document.querySelector("#skill-list3").innerHTML += `<li>${skill}</li>`;
+        document.querySelector("#skills-list3").innerHTML += `<li>${skill}</li>`;
 }
 
-// })();
+})();
