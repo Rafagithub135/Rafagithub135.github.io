@@ -56,6 +56,12 @@ overflow: hidden;
     background-color: #F2E8C9;
 }
 
+.skills {
+    margin: 0;
+    /*display: flex;*/
+    /*justify-content: center;*/
+}
+
 #mtd {
     color: black;
     font-weight: bold;
