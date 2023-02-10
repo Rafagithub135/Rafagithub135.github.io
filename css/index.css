@@ -39,15 +39,15 @@ overflow: hidden;
     background-color: #BA152F;
     display: flex;
     justify-content: center;
-    height: 100%;
-    width: 100%;
-    object-fit: contain;
 }
 
 .emblem-right {
     background-color: #D8AF36;
     display: flex;
     justify-content: center;
+}
+
+.emblem {
     height: 100%;
     width: 100%;
     object-fit: contain;
