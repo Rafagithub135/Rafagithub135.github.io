@@ -45,13 +45,23 @@ overflow: hidden;
     background-color: #D8AF36;
     display: flex;
     justify-content: center;
+<<<<<<< HEAD
 }
 
 .emblem {
     height: 100%;
     width: 100%;
     object-fit: contain;
+=======
+>>>>>>> fa2d6bb82c5db2bbc501d78003c1a17629cfb156
 }
+
+/*.emblem {*/
+/*    display: flex;*/
+/*    height: 100%;*/
+/*    width: 100%;*/
+/*    object-fit: contain;*/
+/*}*/
 
 .link {
     display: flex;
