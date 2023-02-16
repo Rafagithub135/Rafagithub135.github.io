@@ -1,12 +1,13 @@
-* {
-    margin: 0;
-}
-
 h1 {
     font-size: 68px;
     font-family: "Times New Roman", serif;
     font-weight: bold;
     text-align: center;
+}
+
+img {
+    max-width: 350px;
+    border: 3px solid black;
 }
 
 .container {
@@ -17,61 +18,72 @@ h1 {
     width: 100vw;
 }
 
-.column {
-    width: 100%;
-    border: 0;
-    padding: 0;
-    flex: 50%;
-}
-
-.image {
-    height: 400px;
-    width: 400px;
-    border: 3px solid black;
-}
-
 .codeup {
     background-color: #7CB342;
+}
+
+.codeup_text {
+    align-content: center;
+    justify-content: center;
     color: yellow;
 }
 
 .devry {
     background-color: #CFA314;
-    color: blue;
 }
 
-.mercer {
-    background-color: #00662F;
-    color: gold;
+.devry_text {
+    align-content: center;
+    justify-content: center;
+    color: blue;
 }
 
 .ccaf {
     background-color: #172C7F;
-    color: white;
 }
 
-.usmc1 {
-    background-color: #D8AF36;
-    color: navy;
+.ccaf_text {
+    align-content: center;
+    justify-content: center;
+    color: white;
 }
 
 .usmc2 {
     background-color: #DC1311;
+}
+
+.usmc2_text {
+    align-content: center;
+    justify-content: center;
+    color: navy;
+}
+
+.usmc1 {
+    background-color: #D8AF36;
+}
+
+.usmc1_text {
+    align-content: center;
+    justify-content: center;
     color: navy;
 }
 
 .miramar {
     background-color: #066A78;
-    color: cyan;
 }
 
-#miramar {
-    height: 200px;
-    width: 400px;
-    border: 3px solid black;
+.miramar_text {
+    align-content: center;
+    justify-content: center;
+    color: white;
 }
 
 .madison {
     background-color: #1F2C4C;
+}
+
+.madison_text {
+    align-content: center;
+    justify-content: center;
     color: white;
 }
