@@ -15,7 +15,7 @@
 
     (() => {
 
-    const skills = ['HTML', 'CSS', 'JavaScript', 'Ajax', 'Bootstrap', 'Jquery', 'Computer Network Wiring', 'Python']
+    const skills = ['HTML', 'CSS', 'JavaScript', 'Ajax', 'Bootstrap', 'Jquery', 'Computer Network Wiring', 'Python', 'Spring Boot']
 
     const skills2 = ['General Aircraft Mechanic', 'General Automotive Mechanic', 'General Diesel Mechanic', 'Real Estate Investor Apprentice', 'Nationally Certified Tow Operator'];
 
