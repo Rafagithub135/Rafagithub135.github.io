@@ -1,26 +1,30 @@
 h1 {
     color: black;
     text-align: center;
-    font-size: 60px;
+    font-size: 30px;
 }
 
 h2 {
     color: #006AFF;
     text-align: center;
-    font-size: 40px;
+    font-size: 20px;
 }
 
 ul {
     list-style-type: none;
-margin: 0;
-padding: 0;
-overflow: hidden;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
 }
 
 .main-page {
     margin-top: 1em;
     display: block;
     background-color: olivedrab;
+}
+
+.contact-links {
+    margin-bottom: 1em;
 }
 
 .contact {
@@ -35,6 +39,10 @@ overflow: hidden;
     color: #00008b;
 }
 
+.name {
+    text-align: center;
+}
+
 .emblem-left {
     background-color: #BA152F;
     display: flex;
@@ -47,21 +55,24 @@ overflow: hidden;
     justify-content: center;
 }
 
-/*.emblem {*/
-/*    display: flex;*/
-/*    height: 100%;*/
-/*    width: 100%;*/
-/*    object-fit: contain;*/
-/*}*/
+.emblem {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
 
-.link {
-    display: flex;
-    justify-content: center;
+.reference-links {
+    text-align: center;
 }
 
 .sand {
+    width: 100%;
     background-color: #F2E8C9;
 }
+
+/*.counter {*/
+/*    visibility: hidden;*/
+/*}*/
 
 #mtd {
     color: black;
@@ -84,4 +95,4 @@ overflow: hidden;
     height: 200px;
     width: 200px;
     border-radius: 50%;
-  }
+}
