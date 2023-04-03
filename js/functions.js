@@ -15,11 +15,11 @@
 
     (() => {
 
-    const skills = ['HTML', 'CSS', 'JavaScript', 'Ajax', 'Bootstrap', 'Jquery', 'Computer Network Wiring', 'Python', 'Spring Boot']
+    const skills = ['HTML', 'Ajax', 'Python']
 
-    const skills2 = ['General Aircraft Mechanic', 'General Automotive Mechanic', 'General Diesel Mechanic', 'Real Estate Investor Apprentice', 'Nationally Certified Tow Operator'];
+    const skills2 = ['CSS', 'Bootstrap', 'Jquery'];
 
-    const skills3 = ['General Household Electrical Wiring', 'General Household Plumbing Work', 'General Construction'];
+    const skills3 = ['JavaScript', 'Spring Boot', 'Computer Network Wiring'];
 
     for (let skill of skills) {
         document.querySelector("#skills-list1").innerHTML += `<li>${skill}</li>`;
