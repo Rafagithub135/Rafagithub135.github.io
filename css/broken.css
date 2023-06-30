@@ -1,20 +1,35 @@
 h1 {
-    color: darkslategray;
-    align-content: flex-end;
+    color: purple;
     text-align: center;
-    font-size: 60px;
+}
+
+img {
+    width: 100vw;
+    height: 100vh;
+}
+
+h1 {
+    font-weight: bold;
+    font-size: 80px;
 }
 
 .container {
-     background-image: url("/Images/construction.jpeg");
-     background-repeat: no-repeat;
-     background-size: cover;
- }
+    margin: auto;
+    position: relative;
+}
 
-.container-fluid {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
+.excuse {
+    position: absolute;
+    font-size: 50px;
+    color: purple;
+    top: 0;
+    left: 0;
+}
+
+.const {
+    position: absolute;
+    font-size: 50px;
+    color: purple;
+    top: 35%;
+    left: 0;
 }

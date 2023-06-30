@@ -1,111 +1,61 @@
-.row {
-    display: flex;
-    margin: auto;
-    justify-content: space-around;
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
-.column {
+h1 {
     display: flex;
-    justify-content: space-around;
-    width: 100%;
-    padding: 5px;
-    flex: 50%;
+    justify-content: center;
+    width: 100vw;
+    text-align: center;
+    font-size: 50px;
 }
 
 h2 {
+    display: flex;
+    justify-content: center;
+    width: 100vw;
     text-align: center;
     color: #172C7F;
-    font-size: 60px;
+    font-size: 40px;
 }
 
-.Ribbons {
+.ribbon-section {
+    display: flex;
+    justify-content: center;
     width: 100vw;
-}
-
-.Ribbons-list {
-    margin: auto;
-    width: 800px;
-}
-
-.Ribbons-list>ol {
-    margin-left: 50px;
-    padding-left: 15px;
-    display: inline-block;
-    text-align: center;
-}
-
-#ribbons {
-    display: block;
-    margin: auto;
-    height: 400px;
-    width: 800px;
-}
-
-.cert {
-    width: 800px;
-    height: 600px;
-    margin: auto;
-    border: 2px solid black;
-}
-
-.coldWar {
-    height: 600px;
-    width: 800px;
-    margin: auto;
-    border: 2px solid black;
-}
-
-.figCaption {
-    text-align: center;
-    width: 100%;
+    max-width: 100vw;
     margin: 0;
+    padding: 0;
 }
 
-.mcDischarge {
-    height: 600px;
-    width: 800px;
-    margin: auto;
+.ribbons-list {
+    text-align: center;
 }
 
-.m16Badge {
-    width: 400px;
-    height: 400px;
+.certs {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    max-width: 100vw;
+    padding: 20px 10px;
+    margin: 0 auto;
+    gap: 16px;
 }
 
-.m9badge {
-    width: 400px;
-    height: 400px;
-}
-
-.njang {
-    height: 600px;
-    width: 800px;
-}
-
-.ncto {
-    height: 400px;
-    width: 400px;
-}
-
-.ase {
-    height: 400px;
-    width: 400px;
-}
-
-.aia {
-    height: 400px;
-    width: 400px;
-}
-
-.coabo {
+.certs img {
+    width: 100%;
+    max-width: 600px;
+    height: 500px;
+    object-fit: cover;
     border: 2px solid black;
-    height: 600px;
-    width: 800px;
-    margin: auto;
+    border-radius: 10px;
 }
 
-.coret {
-    height: 800px;
-    width: 600px;
-    margin: auto;
+section::after {
+    content: "";
+    width: 350px;
 }

@@ -70,6 +70,10 @@ ul {
     background-color: #F2E8C9;
 }
 
+/*.counter {*/
+/*    visibility: hidden;*/
+/*}*/
+
 #mtd {
     color: black;
     font-weight: bold;
