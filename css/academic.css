@@ -18,6 +18,17 @@ img {
     width: 100vw;
 }
 
+.ccp {
+    background-color: #FBC603;
+}
+
+.ccp_text {
+    align-content: center;
+    justify-content: center;
+    color: black;
+    font-weight: bold;
+}
+
 .codeup {
     background-color: #7CB342;
 }
@@ -46,6 +57,17 @@ img {
     align-content: center;
     justify-content: center;
     color: white;
+}
+
+.penn {
+    background-color: #00225A;
+}
+
+.penn_text {
+    align-content: center;
+    justify-content: center;
+    color: white;
+    font-weight: bold;
 }
 
 .usmc2 {
