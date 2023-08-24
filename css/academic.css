@@ -29,6 +29,28 @@ img {
     font-weight: bold;
 }
 
+.text1 {
+    font-size: 25px;
+    font-family: "Times New Roman", serif;
+    font-weight: bold;
+    text-align: start;
+}
+
+.text2 {
+    font-size: 18px;
+    font-family: "Times New Roman", serif;
+    font-weight: bold;
+    text-align: start;
+}
+
+.text3 {
+    font-size: 14px;
+    font-family: "Times New Roman", serif;
+    font-weight: bold;
+    text-align: start;
+    padding-right: 10px;
+}
+
 .codeup {
     background-color: #7CB342;
 }
@@ -51,6 +73,7 @@ img {
 
 .ccaf {
     background-color: #172C7F;
+    padding: 10px;
 }
 
 .ccaf_text {
