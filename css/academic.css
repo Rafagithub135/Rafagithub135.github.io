@@ -51,6 +51,12 @@ img {
     padding-right: 10px;
 }
 
+.ctrimg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .codeup {
     background-color: #7CB342;
 }
