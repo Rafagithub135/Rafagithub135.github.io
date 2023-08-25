@@ -6,7 +6,7 @@ h1 {
 }
 
 img {
-    max-width: 350px;
+    width: 350px;
     border: 3px solid black;
 }
 
@@ -18,15 +18,10 @@ img {
     width: 100vw;
 }
 
-.ccp {
-    background-color: #FBC603;
-}
-
-.ccp_text {
-    align-content: center;
+.ctrimg {
+    display: flex;
     justify-content: center;
-    color: black;
-    font-weight: bold;
+    align-items: center;
 }
 
 .text1 {
@@ -51,10 +46,26 @@ img {
     padding-right: 10px;
 }
 
-.ctrimg {
-    display: flex;
+.penn {
+    background-color: #00225A;
+}
+
+.penn_text {
+    align-content: center;
     justify-content: center;
-    align-items: center;
+    color: white;
+    font-weight: bold;
+}
+
+.ccp {
+    background-color: #FBC603;
+}
+
+.ccp_text {
+    align-content: center;
+    justify-content: center;
+    color: black;
+    font-weight: bold;
 }
 
 .codeup {
@@ -86,17 +97,6 @@ img {
     align-content: center;
     justify-content: center;
     color: white;
-}
-
-.penn {
-    background-color: #00225A;
-}
-
-.penn_text {
-    align-content: center;
-    justify-content: center;
-    color: white;
-    font-weight: bold;
 }
 
 .usmc2 {
