@@ -44,6 +44,28 @@ p {
     color: orangered;
 }
 
+.text1 {
+    font-size: 35px;
+    font-family: "Times New Roman", serif;
+    font-weight: bold;
+    text-align: start;
+}
+
+.text2 {
+    font-size: 25px;
+    font-family: "Times New Roman", serif;
+    font-weight: bold;
+    text-align: start;
+}
+
+.text3 {
+    font-size: 20px;
+    font-family: "Times New Roman", serif;
+    font-weight: bold;
+    text-align: start;
+    padding-right: 10px;
+}
+
 .year {
     font-weight: bold;
     color: antiquewhite;
@@ -71,11 +93,11 @@ p {
 }
 
 #lydd {
-    color: #6c757d;
+    color: darkblue;
 }
 
 #lyftt {
-    color: #228b22;
+    color: darkblue;
 }
 
 #njang {
@@ -86,8 +108,16 @@ p {
     color: #008000;
 }
 
+#cangdd {
+    color: #faebd7;
+}
+
 #cangt {
     color: #faebd7;
+}
+
+#angdd {
+    color: #ffebcd;
 }
 
 #angt {
@@ -98,14 +128,18 @@ p {
     background-color: #1B5189;
 }
 
-#atpt {
+#aptdd {
     color: #EDE432;
 }
 
-#aptt {
+#apttt {
     color: #00FFFF;
 }
 
-#mcdt {
+#mcdd {
+    color: navy;
+}
+
+#mctt {
     color: navy;
 }
