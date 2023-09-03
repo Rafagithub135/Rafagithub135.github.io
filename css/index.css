@@ -87,10 +87,20 @@ ul {
     font-size: 30px;
 }
 
-#afvet {
-    justify-content: center;
+#usmcvet {
+    justify-content: space-around;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    align-items: center;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+}
+
+#afvet {
+    justify-content: space-around;
+    display: flex;
+    flex-direction: row;
     align-items: center;
     height: 200px;
     width: 200px;
