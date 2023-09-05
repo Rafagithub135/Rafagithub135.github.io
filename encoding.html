@@ -13,13 +13,13 @@
     <form>
         <div class="mb-3">
         <label for="input" class="form-label">Enter your phrase here:</label>
-        <input type="textbox" class="form-control" id="input" aria-describedby="phrase" placeholder="Please be patient, I'm working on this page.">
+        <input type="text" class="form-control" id="input" aria-describedby="phrase" placeholder="Please be patient, I'm working on this page.">
         </div>
         <button id="write" type="button" class="btn btn-primary" onclick="encodeInput()">Encode</button>
     </form>
 </div>
 <div>
-    <h2>Encoded Phrase</h2>
+    <h2 class="phrase">Encoded Phrase</h2>
     <p><span id="phrase"></span></p>
 </div>
 <script src="js/functions.js"></script>
