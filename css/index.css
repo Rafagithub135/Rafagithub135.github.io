@@ -1,26 +1,39 @@
 h1 {
     color: black;
     text-align: center;
-    font-size: 60px;
+    font-size: 30px;
 }
 
 h2 {
     color: #006AFF;
     text-align: center;
-    font-size: 40px;
+    font-size: 20px;
 }
 
 ul {
     list-style-type: none;
-margin: 0;
-padding: 0;
-overflow: hidden;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.name {
+    font-size: 75px;
+    text-align: center;
+}
+
+.title {
+    font-size: 40px;
 }
 
 .main-page {
     margin-top: 1em;
     display: block;
     background-color: olivedrab;
+}
+
+.contact-links {
+    margin-bottom: 1em;
 }
 
 .contact {
@@ -39,34 +52,40 @@ overflow: hidden;
     background-color: #BA152F;
     display: flex;
     justify-content: center;
-    height: 100%;
-    width: 100%;
-    object-fit: contain;
 }
 
 .emblem-right {
     background-color: #D8AF36;
     display: flex;
     justify-content: center;
+}
+
+.emblem {
     height: 100%;
     width: 100%;
     object-fit: contain;
 }
 
-.link {
-    display: flex;
-    justify-content: center;
+.reference-links {
+    text-align: center;
 }
 
 .sand {
+    width: 100%;
     background-color: #F2E8C9;
 }
 
+<<<<<<< HEAD
 .skills {
     margin: 0;
     /*display: flex;*/
     /*justify-content: center;*/
 }
+=======
+/*.counter {*/
+/*    visibility: hidden;*/
+/*}*/
+>>>>>>> 2903659f79e8c4472193de596f67caee584dc75b
 
 #mtd {
     color: black;
@@ -81,12 +100,22 @@ overflow: hidden;
     font-size: 30px;
 }
 
-#afvet {
-    justify-content: center;
+#usmcvet {
+    justify-content: space-around;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
     height: 200px;
     width: 200px;
     border-radius: 50%;
-  }
+}
+
+#afvet {
+    justify-content: space-around;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+}
