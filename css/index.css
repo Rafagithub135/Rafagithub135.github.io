@@ -77,13 +77,20 @@ ul {
 
 .skills {
     margin: 0;
-    /*display: flex;*/
-    /*justify-content: center;*/
 }
 
-/*.counter {*/
-/*    visibility: hidden;*/
-/*}*/
+.buttons {
+    display: flex;
+    justify-content: center;
+}
+
+.space {
+    margin: 0 20em;
+}
+
+.counter {
+    height: 15px;
+}
 
 #mtd {
     color: black;
