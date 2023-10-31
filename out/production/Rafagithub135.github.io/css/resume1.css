@@ -1,0 +1,89 @@
+
+h2 {
+    text-align: center;
+    font-size: 60px;
+}
+
+.main-page {
+    width: 100vw;
+    background-color: lightgreen;
+}
+
+.container {
+    width: 100vw;
+    margin: 0;
+}
+
+.narrative {
+    margin: 0;
+}
+
+.py-4 {
+    font-size: 60px;
+}
+
+
+.emblem {
+    align-content: center;
+    padding: 0;
+    height: 175px;
+    width: 175px;
+}
+
+.Madison {
+    background-color: #1F2C4C;
+}
+
+#Madison {
+    height: 350px;
+    width: 600px;
+}
+
+.section-emblem {
+    background-color: darkolivegreen;
+}
+
+h1 {
+    font-size: 38px;
+    font-family: "Times New Roman", serif;
+    font-weight: bold;
+}
+
+h2 {
+    align-items: center;
+    color: #006AFF;
+    font-weight: bold;
+}
+
+h3 {
+    font-size: 25px;
+    align-content: center;
+}
+
+.year {
+    color: red;
+}
+
+.work {
+    background-color: #525041;
+}
+
+.location {
+    color: #000000;
+}
+
+body {
+    margin: 0;
+}
+
+#skills {
+    text-align: center;
+}
+
+p {
+    align-content: center;
+    color: black;
+    font-size: 20px;
+}
+
+

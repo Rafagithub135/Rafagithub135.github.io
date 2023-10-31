@@ -1,0 +1,145 @@
+h1 {
+    font-size: 68px;
+    font-family: "Times New Roman", serif;
+    font-weight: bold;
+    text-align: center;
+}
+
+hr {
+    border: 3px solid red;
+    width: 100%;
+}
+
+img {
+    width: 350px;
+    border: 3px solid black;
+}
+
+.container {
+    margin: 0;
+}
+
+.row {
+    width: 100vw;
+}
+
+.ctrimg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text1 {
+    font-size: 35px;
+    font-family: "Times New Roman", serif;
+    font-weight: bold;
+    text-align: start;
+}
+
+.text2 {
+    font-size: 25px;
+    font-family: "Times New Roman", serif;
+    font-weight: bold;
+    text-align: start;
+}
+
+.text3 {
+    font-size: 20px;
+    font-family: "Times New Roman", serif;
+    font-weight: bold;
+    text-align: start;
+    padding-right: 10px;
+}
+
+.penn {
+    background-color: #00225A;
+}
+
+.penn_text {
+    align-content: center;
+    justify-content: center;
+    color: white;
+    font-weight: bold;
+}
+
+.ccp {
+    background-color: #FBC603;
+}
+
+.ccp_text {
+    align-content: center;
+    justify-content: center;
+    color: black;
+    font-weight: bold;
+}
+
+.codeup {
+    background-color: #7CB342;
+}
+
+.codeup_text {
+    align-content: center;
+    justify-content: center;
+    color: yellow;
+}
+
+.devry {
+    background-color: #CFA314;
+}
+
+.devry_text {
+    align-content: center;
+    justify-content: center;
+    color: blue;
+}
+
+.ccaf {
+    background-color: #172C7F;
+    padding: 10px;
+}
+
+.ccaf_text {
+    align-content: center;
+    justify-content: center;
+    color: white;
+}
+
+.usmc2 {
+    background-color: #DC1311;
+}
+
+.usmc2_text {
+    align-content: center;
+    justify-content: center;
+    color: navy;
+}
+
+.usmc1 {
+    background-color: #D8AF36;
+}
+
+.usmc1_text {
+    align-content: center;
+    justify-content: center;
+    color: navy;
+}
+
+.miramar {
+    background-color: #066A78;
+}
+
+.miramar_text {
+    align-content: center;
+    justify-content: center;
+    color: white;
+}
+
+.madison {
+    background-color: #1F2C4C;
+}
+
+.madison_text {
+    align-content: center;
+    justify-content: center;
+    color: white;
+}

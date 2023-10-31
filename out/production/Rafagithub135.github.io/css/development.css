@@ -1,0 +1,28 @@
+body {
+    background-image: url("/Images/computer_background.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+h2 {
+    color: red;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+}
+
+h3 {
+    color: orange;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+}
+
+li {
+    color: khaki;
+    font-size: 20px;
+    font-weight: bold;
+}

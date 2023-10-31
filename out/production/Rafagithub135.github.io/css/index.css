@@ -1,0 +1,130 @@
+h1 {
+    color: black;
+    text-align: center;
+    font-size: 30px;
+}
+
+h2 {
+    color: #006AFF;
+    text-align: center;
+    font-size: 20px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.name {
+    font-size: 75px;
+    text-align: center;
+}
+
+.title {
+    font-size: 40px;
+}
+
+.main-page {
+    margin-top: 1em;
+    display: block;
+    background-color: olivedrab;
+}
+
+.contact-links {
+    margin-bottom: 1em;
+}
+
+.contact {
+    margin: 0;
+    text-align: center;
+    font-weight: bold;
+    color: red;
+}
+
+.context {
+    font-weight: bold;
+    color: #00008b;
+}
+
+.emblem-left {
+    background-color: #BA152F;
+    display: flex;
+    justify-content: center;
+}
+
+.emblem-right {
+    background-color: #D8AF36;
+    display: flex;
+    justify-content: center;
+}
+
+.emblem {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+
+.reference-links {
+    text-align: center;
+}
+
+.sand {
+    width: 100%;
+    background-color: #F2E8C9;
+}
+
+.skills {
+    margin: 0;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+}
+
+.space {
+    margin: 0 20em;
+}
+
+.counter {
+    height: 15px;
+}
+
+#mtd {
+    color: black;
+    font-weight: bold;
+    font-size: 15px;
+    justify-content: center;
+}
+
+#skills {
+    color: #006AFF;
+    text-align: center;
+    font-size: 30px;
+}
+
+#usmcvet {
+    justify-content: space-around;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+}
+
+#afvet {
+    justify-content: space-around;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+}
+
+.counter {
+    height: 15px;
+}
