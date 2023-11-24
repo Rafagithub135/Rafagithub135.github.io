@@ -76,7 +76,7 @@ hr {
     margin: 0 auto;
 }
 
-section::after {
+.certs::after {
     content: "";
-    width: 350px;
+    width: 600px;
 }
