@@ -1,3 +1,11 @@
+:root {
+    --h2-blue: #006AFF;
+    --background-olivedrab: olivedrab;
+    --USMCscarlet: #BA152F;
+    --USMCgold: #D8AF36;
+    --sand: #F2E8C9;
+}
+
 h1 {
     color: black;
     text-align: center;
@@ -41,6 +49,16 @@ ul {
     text-align: center;
     font-weight: bold;
     color: red;
+}
+
+.hr1 {
+    border: 3px solid var(--USMCscarlet);
+    opacity: 1;
+}
+
+.hr2 {
+    border: 3px solid var(--USMCgold);
+    opacity: 1;
 }
 
 .context {
