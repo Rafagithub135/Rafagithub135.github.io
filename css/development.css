@@ -26,3 +26,27 @@ li {
     font-size: 20px;
     font-weight: bold;
 }
+
+a {
+    color: khaki;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+a:hover {
+    color: red;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+a:visited {
+    color: blue;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+a:active {
+    color: green;
+    font-size: 20px;
+    font-weight: bold;
+}
