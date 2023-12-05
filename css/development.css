@@ -1,3 +1,14 @@
+:root {
+    --main-bg-color: #000000;
+    --main-text-color: #ffffff;
+    --h1-color: #ff0000;
+    --h2-color: #ff8c00;
+    --h3-color: #ffff00;
+    --anchor: khaki;
+    --anchor-visited: tan;
+    --anchor-active: green;
+}
+
 body {
     background-image: url("/Images/computer_background.jpeg");
     background-repeat: no-repeat;
@@ -5,8 +16,16 @@ body {
     height: 100vh;
 }
 
+h1 {
+    color: var(--h1-color);
+    font-family: "Times New Roman", Times, serif;
+    font-size: 75px;
+    font-weight: bold;
+    text-align: center;
+}
+
 h2 {
-    color: red;
+    color: var(--h2-color);
     font-family: "Times New Roman", Times, serif;
     font-size: 50px;
     font-weight: bold;
@@ -14,7 +33,7 @@ h2 {
 }
 
 h3 {
-    color: orange;
+    color: var(--h3-color);
     font-family: "Times New Roman", Times, serif;
     font-size: 40px;
     font-weight: bold;
@@ -28,32 +47,28 @@ li {
 }
 
 li a:hover {
-    color: red;
-    font-size: 20px;
+    color: var(--h1-color);
     font-weight: bold;
 }
 
 a {
-    color: khaki;
+    color: var(--anchor);
     font-size: 20px;
     font-weight: bold;
 }
 
 a:hover {
-    color: red;
-    font-size: 20px;
+    color: var(--h1-color);
     font-weight: bold;
 }
 
 a:visited {
-    color: tan;
-    font-size: 20px;
+    color: var(--anchor-visited);
     font-weight: bold;
 }
 
 a:active {
-    color: green;
-    font-size: 20px;
+    color: var(--anchor-active);
     font-weight: bold;
 }
 
@@ -73,8 +88,6 @@ a:active {
 }
 
 .codeup-proj {
-    color: orange;
-    font-size: 30px;
     font-weight: bold;
 }
 
@@ -87,8 +100,6 @@ a:active {
 }
 
 .fcc {
-    color: orange;
-    font-size: 30px;
     font-weight: bold;
 }
 
@@ -101,8 +112,6 @@ a:active {
 }
 
 .outside {
-    color: orange;
-    font-size: 30px;
     font-weight: bold;
 }
 

@@ -1,3 +1,7 @@
+:root {
+    --hr-color: #172C7F;
+}
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -17,12 +21,12 @@ h2 {
     justify-content: center;
     width: 100vw;
     text-align: center;
-    color: #172C7F;
+    color: var(--hr-color);
     font-size: 40px;
 }
 
 hr {
-    border: 3px solid #172C7F;
+    border: 3px solid var(--hr-color);
 }
 
 .ribbon-section {
