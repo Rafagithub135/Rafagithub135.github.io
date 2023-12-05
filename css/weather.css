@@ -1,0 +1,84 @@
+body {
+    background: palegreen;
+}
+
+h3 {
+    font-size: 60px;
+}
+
+.card {
+    height: 300px;
+    width: 18rem;
+    border: 2px solid black;
+}
+
+.marker1 {
+    background-image: url("/markers/marker707.png");
+    background-size: cover;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.marker2 {
+    background-image: url("/markers/marker-falcon.jpeg");
+    background-size: cover;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.marker3 {
+    background-image: url("/markers/marker-mapbox.png");
+    background-size: cover;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.marker4 {
+    background-image: url("/markers/marker-red-circle.webp");
+    background-size: cover;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.marker5 {
+    background-image: url("/markers/marker-pin.png");
+    background-size: cover;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+#map {
+    width: 100vw;
+    height: 400px;
+}
+
+#weather-icon {
+    width: 150px;
+    height: 150px;
+}
+
+#forecast {
+    width: 100%;
+    height: 150px;
+}
+
+#search-div {
+
+    width: 100%;
+    height: 50px;
+}
+
+#location {
+    width: 100%;
+    height: 20px;
+}

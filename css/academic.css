@@ -1,3 +1,20 @@
+:root {
+    --PennStBlue: #00225A;
+    --CCPYellow: #F8C508;
+    --CodeupGreen: #799F4B;
+    --CodeupYellow: yellow;
+    --DevryGold: #D0A314;
+    --DevryBlue: #01458C;
+    --CCAFBlue: #172C7F;
+    --CCAFYellow: #FDF100;
+    --USMCScarlet: #CC2524;
+    --USMCGold: #B89F2D;
+    --NavyBlue: #0042BC;
+    --MiramarTiel: #007472;
+    --MadisonBlue: #1F2C4C;
+    --MadisonGold: #EAB834;
+}
+
 h1 {
     font-size: 68px;
     font-family: "Times New Roman", serif;
@@ -6,7 +23,7 @@ h1 {
 }
 
 hr {
-    border: 3px solid red;
+    border: 3px solid var(--USMCScarlet);
     width: 100%;
 }
 
@@ -52,7 +69,7 @@ img {
 }
 
 .penn {
-    background-color: #00225A;
+    background-color: var(--PennStBlue);
 }
 
 .penn_text {
@@ -63,7 +80,7 @@ img {
 }
 
 .ccp {
-    background-color: #FBC603;
+    background-color: var(--CCPYellow);
 }
 
 .ccp_text {
@@ -74,58 +91,58 @@ img {
 }
 
 .codeup {
-    background-color: #7CB342;
+    background-color: var(--CodeupGreen);
 }
 
 .codeup_text {
     align-content: center;
     justify-content: center;
-    color: yellow;
+    color: var(--CodeupYellow);
 }
 
 .devry {
-    background-color: #CFA314;
+    background-color: var(--DevryGold);
 }
 
 .devry_text {
     align-content: center;
     justify-content: center;
-    color: blue;
+    color: var(--DevryBlue);
 }
 
 .ccaf {
-    background-color: #172C7F;
+    background-color: var(--CCAFBlue);
     padding: 10px;
 }
 
 .ccaf_text {
     align-content: center;
     justify-content: center;
-    color: white;
+    color: var(--CCAFYellow);
 }
 
 .usmc2 {
-    background-color: #DC1311;
+    background-color: var(--USMCScarlet);
 }
 
 .usmc2_text {
     align-content: center;
     justify-content: center;
-    color: navy;
+    color: var(--NavyBlue);
 }
 
 .usmc1 {
-    background-color: #D8AF36;
+    background-color: var(--USMCGold);
 }
 
 .usmc1_text {
     align-content: center;
     justify-content: center;
-    color: navy;
+    color: var(--NavyBlue);
 }
 
 .miramar {
-    background-color: #066A78;
+    background-color: var(--MiramarTiel);
 }
 
 .miramar_text {
@@ -135,11 +152,11 @@ img {
 }
 
 .madison {
-    background-color: #1F2C4C;
+    background-color: var(--MadisonBlue);
 }
 
 .madison_text {
     align-content: center;
     justify-content: center;
-    color: white;
+    color: var(--MadisonGold);
 }

@@ -1,0 +1,35 @@
+h1 {
+    color: purple;
+    text-align: center;
+}
+
+img {
+    width: 100vw;
+    height: 100vh;
+}
+
+h1 {
+    font-weight: bold;
+    font-size: 80px;
+}
+
+.container {
+    margin: auto;
+    position: relative;
+}
+
+.excuse {
+    position: absolute;
+    font-size: 50px;
+    color: purple;
+    top: 0;
+    left: 0;
+}
+
+.const {
+    position: absolute;
+    font-size: 50px;
+    color: purple;
+    top: 35%;
+    left: 0;
+}
