@@ -1,28 +1,25 @@
 :root {
-    --bs-blue: #0d6efd;
-    --bs-indigo: #6610f2;
-    --bs-purple: #6f42c1;
-    --bs-pink: #d63384;
-    --bs-red: #dc3545;
-    --bs-orange: #fd7e14;
-    --bs-yellow: #ffc107;
-    --bs-green: #198754;
-    --bs-teal: #20c997;
-    --bs-cyan: #0dcaf0;
-    --bs-white: #fff;
-    --bs-gray: #6c757d;
-    --bs-gray-dark: #343a40;
-    --bs-primary: #0d6efd;
-    --bs-secondary: #6c757d;
-    --bs-success: #198754;
-    --bs-info: #0dcaf0;
-    --bs-warning: #ffc107;
-    --bs-danger: #dc3545;
-    --bs-light: #f8f9fa;
-    --bs-dark: #212529;
-    --bs-font-sans-serif: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-    --bs-font-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
-    --bs-gradient: linear-gradient(180deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0));
+    --background: olivedrab;
+    --VABlue: #629BCD;
+    --BlueText: #006AFF;
+    --Location: khaki;
+    --UberBlack: #212529;
+    --UberRed: #FF0000;
+    --LyftPink: #FF00E2;
+    --LyftText: #FAEBD7;
+    --LyftPurple: #52008B;
+    --ANGBlue: #006AFF;
+    --ANGSky: #0DCAF0;
+    --ANGGreen: #008000;
+    --Year: antiquewhite;
+--OrangeRed: orangered;
+    --VAText: #f8f8ff;
+    --VATitle: #f0fff0;
+    --CAANGText: #ffebcd;
+    --APTBlue: #1B5189;
+    --APTYellow: #EDE432;
+    --APTText: #00FFFF;
+    --USMCText: navy;
 }
 
 * {
@@ -31,17 +28,17 @@
 }
 
 body {
-    /*background-color: olivedrab;*/
+    background-color: var(--background);
 }
 
 
 h2 {
     font-weight: bold;
-    color: #006AFF;
+    color: var(--BlueText);
 }
 
 p {
-    color: orangered;
+    color: var(--OrangeRed);
 }
 
 .text1 {
@@ -68,86 +65,86 @@ p {
 
 .year {
     font-weight: bold;
-    color: antiquewhite;
+    color: var(--Year);
 }
 
 .location {
     font-weight: bold;
-    color: khaki;
+    color: var(--Location);
 }
 
 #vetInd {
-    background-color: #629BCD;
+    background-color: var(--VABlue);
 }
 
 #vidd {
-    color: #f8f8ff;
+    color: var(--VAText);
 }
 
 #vidt {
-    color: #f0fff0;
+    color: var(--VATitle);
 }
 
 #uberdd {
-    color: red;
+    color: var(--UberRed);
 }
 
 #ubertt {
-    color: red;
+    color: var(--UberRed);
 }
 
 #lyft {
-    background-color: #FF00E2;
+    background-color: var(--LyftPink);
 }
 
 #lydd {
-    color: darkblue;
+    color: var(--LyftText);
 }
 
 #lyftt {
-    color: darkblue;
+    color: var(--LyftText);
 }
 
 #njang {
-    color: #008000;
+    color: var(--ANGGreen);
 }
 
 #njangt {
-    color: #008000;
+    color: var(--ANGGreen);
 }
 
 #cangdd {
-    color: #faebd7;
+    color: var(--LyftText);
 }
 
 #cangt {
-    color: #faebd7;
+    color: var(--LyftText);
 }
 
 #angdd {
-    color: #ffebcd;
+    color: var(--CAANGText);
 }
 
 #angt {
-    color: #ffebcd;
+    color: var(--CAANGText);
 }
 
 #apt {
-    background-color: #1B5189;
+    background-color: var(--APTBlue);
 }
 
 #aptdd {
-    color: #EDE432;
+    color: var(--APTYellow);
 }
 
 #apttt {
-    color: #00FFFF;
+    color: var(--APTText);
 }
 
 #mcdd {
-    color: navy;
+    color: var(--USMCText);
 }
 
 #mctt {
-    color: navy;
+    color: var(--USMCText);
 }
