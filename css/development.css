@@ -7,6 +7,8 @@
     --anchor: khaki;
     --anchor-visited: tan;
     --anchor-active: green;
+    --brown: #8b4513;
+    --orangered: orangered;
 }
 
 body {
@@ -89,6 +91,10 @@ a:active {
 
 .codeup-proj {
     font-weight: bold;
+}
+
+.col1 a {
+    color: var(--orangered);
 }
 
 .col2 {
