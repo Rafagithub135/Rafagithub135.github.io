@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Free Code Camp Rocks</title>
+    <link rel="stylesheet" href="/css/reg_form.css">
+</head>
+<body>
+<h1 id="title">Free Code Camp Rocks</h1>
+<p id="description">
+    We would like you to fill out this short survey.
+</p>
+<form id="survey-form">
+    <label for="name" id="name-label">Please enter your name:  <input id="name" type="text" required placeholder="Please enter your name here."></label>
+    <br>
+    <label for="email" id="email-label">Please enter your email:  <input id="email" type="email" required placeholder="Please enter your email here."></label>
+    <br>
+    <label for="number" id="number-label">Please enter a number between 13 and 140:  <input id="number" type="number" pattern="0-9" min="13" max="140" placeholder="Please enter your number here."></label>
+    <br>
+    <label for="dropdown">Do you like coding?<select id="dropdown">
+        <option value="yes" name="yes">Yes</option>
+        <option value="no" name="no">No</option>
+    </select>
+    </label>
+    <h4>Which type of developer would you like to be?</h4>
+    <label><input name="dev-type" value="front-end" type="radio" checked>  Front End</label>
+    <label><input name="dev-type" value="back-end" type="radio">  Back End</label>
+    <label><input name="dev-type" value="full-stack" type="radio">  Full Stack</label>
+    <h4>What kind of dogs do you like? (Select all that apply)</h4>
+    <label><input value="pit-bull" type="checkbox">  Pit Bull</label>
+    <label><input value="boxer" type="checkbox">  Boxer</label>
+    <label><input value="jack-russell" type="checkbox">  Jack Russell</label>
+    <h4>Do you have anything to add?</h4>
+    <label for="textarea">Please add any comments here.</label>
+    <textarea id="textarea" rows="6" cols="50" placeholder="Add your comments here."></textarea>
+    <input type="submit" id="submit" value="submit">
+</form>
+</body>
+</html>
