@@ -1,0 +1,104 @@
+:root {
+    --background: tan;
+    --text: black;
+    --background2: lightblue;
+    --background3: #3b3b4f;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    background-color: var(--background);
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+}
+
+h1, p {
+    color: var(--text);
+    font-size: 5rem;
+    font-weight: bold;
+    margin: 1em auto;
+    padding: 0;
+    text-align: center;
+}
+
+h4 {
+    color: var(--text);
+    font-size: 2rem;
+    margin: 1em;
+    padding: 0;
+    text-align: center;
+}
+
+form {
+    background-color: var(--background2);
+    border-radius: 10px;
+    box-shadow: 0 0 10px 0;
+    margin: 5em auto;
+    width: 60vw;
+    max-width: 700px;
+    min-width: 300px;
+    padding-bottom: 1em;
+}
+
+#description {
+    color: var(--text);
+    font-size: 1.5rem;
+    margin: 1em;
+    padding: 0;
+    text-align: center;
+}
+
+fieldset {
+    border: none;
+    padding: 2rem 0;
+    border-bottom: 3px solid var(--background3);
+}
+
+fieldset:not(:last-of-type) {
+    border-bottom: 3px solid #3b3b4f;
+}
+label {
+    display: block;
+    margin: 1rem 1rem;
+    padding-top: 5px;
+}
+
+input, textarea, select {
+    width: 100%;
+    margin: 10px 0 0 0;
+    min-height: 2em;
+}
+
+input, textarea {
+    background-color: #0a0a23;
+    border: 1px solid #0a0a23;
+    color: #ffffff;
+}
+
+.inline {
+    width: unset;
+    margin: 0 .5em 0 0;
+    vertical-align: middle;
+}
+
+input[type="submit"] {
+    display: block;
+    width: 60%;
+    margin: 1em auto;
+    height: 2em;
+    font-size: 1.1rem;
+    background-color: #3b3b4f;
+    border-color: white;
+    min-width: 300px;
+}
+
+input[type="file"] {
+    padding: 1px 2px;
+}
+
+a {
+    color: #dfdfe2;
+}
