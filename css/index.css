@@ -5,6 +5,7 @@
     --USMCgold: #D8AF36;
     --sand: #F2E8C9;
     --navy: #00008b;
+    --small-screen-titles: ;
 }
 
 h1 {
@@ -94,6 +95,12 @@ ul {
     background-color: var(--sand);
 }
 
+.skills-title {
+    color: var(--h2-blue);
+    text-align: center;
+    font-size: 30px;
+}
+
 .skills {
     margin: 0;
 }
@@ -119,7 +126,6 @@ ul {
 }
 
 #skills {
-    color: var(--h2-blue);
     text-align: center;
     font-size: 30px;
 }
@@ -161,5 +167,14 @@ ul {
 @media screen and (max-width: 530px) {
     .name {
         font-size: 25px;
+    }
+    .title {
+        color: var(--navy);
+    }
+    .skills-title {
+        color: var(--navy);
+    }
+    .ref-title a {
+        color: var(--navy);
     }
 }
