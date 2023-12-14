@@ -29,6 +29,10 @@ h2 {
     font-size: 40px;
 }
 
+li {
+    font-weight: bold;
+}
+
 hr {
     border: 3px solid var(--hr-color);
 }
