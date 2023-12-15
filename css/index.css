@@ -177,4 +177,7 @@ ul {
     .ref-title a {
         color: var(--navy);
     }
+    p a {
+        color: var(--navy);
+    }
 }
