@@ -15,7 +15,7 @@
 
     (() => {
 
-    const skills = ['HTML', 'Java', 'Ajax', 'Python']
+    const skills = ['HTML', 'Java', 'Ajax', 'Python', 'Responsive Web Design'];
 
     const skills2 = ['CSS', 'Bootstrap', 'Jquery'];
 
