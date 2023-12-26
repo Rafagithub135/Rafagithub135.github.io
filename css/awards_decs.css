@@ -92,3 +92,28 @@ hr {
     content: "";
     width: 600px;
 }
+
+@media screen and (max-width: 360px) {
+    .ribbon-section {
+        display: flex;
+        justify-content: center;
+        width: 350px;
+        max-width: 350px;
+        margin: 0;
+        padding: 0;
+    }
+
+    .ribbon-section img {
+        width: 350px;
+    }
+
+    .ribbons-list {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        max-width: 350px;
+        padding: 0;
+        margin: 0 auto;
+    }
+}
