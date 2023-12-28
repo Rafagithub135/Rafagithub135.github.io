@@ -129,6 +129,7 @@ ul {
     position: absolute;
     right: 0;
     margin-right: 10px;
+    padding: .5em;
 }
 
 #mtd {
