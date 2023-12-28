@@ -118,6 +118,19 @@ ul {
     height: 15px;
 }
 
+.no-hate {
+    background-color: #006AFF;
+    color: black;
+    font-weight: bold;
+    display: flex;
+    justify-content: flex-start;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    right: 0;
+    margin-right: 10px;
+}
+
 #mtd {
     color: black;
     font-weight: bold;
