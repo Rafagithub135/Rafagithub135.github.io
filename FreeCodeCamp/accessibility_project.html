@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta content="Responsive Web Design" name="description">
+    <title>Accessibility Project</title>
+    <link rel="stylesheet" href="/css/acc_styles.css">
+</head>
+<body>
+<header>
+    <img src="https://cdn.freecodecamp.org/platform/universal/fcc_primary.svg" alt="logo" id="logo">
+    <h1>HTML/CSS Quiz</h1>
+    <nav>
+        <ul>
+            <li><a href="#student-info" accesskey="I">INFO</a></li>
+            <li><a href="#html-questions" accesskey="H">HTML</a></li>
+            <li><a href="#css-questions" accesskey="C">CSS</a></li>
+        </ul>
+    </nav>
+</header>
+<main>
+    <form action="https://freecodecamp.org/practice-project/accessibility-quiz" method="post">
+        <section role="region" aria-labelledby="student-info">
+            <h2 id="student-info">Student Info</h2>
+            <div class="info">
+                <label for="name">Enter your name: </label>
+                <input type="text" id="name" name="name">
+            </div>
+            <div class="info">
+                <label for="email">Enter your email: </label>
+                <input type="email" id="email" name="email">
+            </div>
+            <div class="info">
+                <label for="dob">Enter your D.O.B.: <span class="sr-only">(Date of Birth)</span></label>
+                <input type="date" id="dob" name="dob">
+            </div>
+        </section>
+        <section role="region" aria-labelledby="html-questions">
+            <h2 id="html-questions">HTML</h2>
+            <div class="question-block">
+                <p>1</p>
+                <fieldset class="question" name="q1">
+                    <legend>Each HTML page begins with DOCTYPE.</legend>
+                    <ul class="answers-list">
+                        <li>
+                            <label for="q1-a1">
+                                <input type="radio" id="q1-a1" name="ans1" value="true"> True
+                            </label>
+                        </li>
+                        <li>
+                            <label for="q1-a2">
+                                <input type="radio" id="q1-a2" name="ans1" value="false"> False
+                            </label>
+                        </li>
+                    </ul>
+                </fieldset>
+            </div>
+            <div class="question-block">
+                <p>2</p>
+                <fieldset class="question" name="q2">
+                    <legend>Meta data is contained inside the html element.</legend>
+                    <ul class="answers-list">
+                        <li>
+                            <label for="q2-a1">
+                                <input type="radio" id="q2-a1" name="ans2" value="true"> True
+                            </label>
+                        </li>
+                        <li>
+                            <label for="q2-a2">
+                                <input type="radio" id="q2-a2" name="ans2" value="false"> False
+                            </label>
+                        </li>
+                    </ul>
+                </fieldset>
+            </div>
+        </section>
+        <section role="region" aria-labelledby="css-questions">
+            <h2 id="css-questions">CSS</h2>
+            <div class="formrow">
+                <div class="question-block">
+                    <label for="q3">Are you a frontend developer?</label>
+                </div>
+                <div class="answer">
+                    <select name="q3" id="q3" required>
+                        <option value="">Select an option</option>
+                        <option value="yes">Yes</option>
+                        <option value="no">No</option>
+                    </select>
+                </div>
+                <div class="question-block">
+                    <label for="q4">Do you have any questions?</label>
+                </div>
+                <div class="answer">
+                    <textarea name="q4" id="q4" cols="30" rows="10" placeholder="Who is flexbox?"></textarea>
+                </div>
+            </div>
+        </section>
+        <button type="submit" id="submit" value="Send">Send</button>
+    </form>
+</main>
+<footer>
+    <address>
+        <a href="https://freecodecamp.org">freeCodeCamp</a><br>
+        San Francisco<br>
+        California<br>
+        USA
+    </address>
+</footer>
+</body>
+</html>
