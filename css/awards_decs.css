@@ -68,6 +68,18 @@ hr {
     gap: 16px;
 }
 
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 600px;
+    padding: 10px 5px;
+    margin: 0 auto;
+    gap: 10px;
+
+}
+
 .certs img {
     width: 100%;
     max-width: 600px;
@@ -97,7 +109,7 @@ hr {
     .ribbon-section {
         display: flex;
         justify-content: center;
-        width: 350px;
+        /*width: 350px;*/
         max-width: 350px;
         margin: 0;
         padding: 0;
@@ -108,6 +120,16 @@ hr {
     }
 
     .ribbons-list {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        max-width: 350px;
+        padding: 0;
+        margin: 0 auto;
+    }
+
+    .certs {
         display: flex;
         flex-direction: column;
         justify-content: center;
