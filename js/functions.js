@@ -17,7 +17,7 @@
 
     const skills = ['HTML', 'Java', 'Ajax', 'Python', 'Responsive Web Design'];
 
-    const skills2 = ['CSS', 'Bootstrap', 'Jquery'];
+    const skills2 = ['CSS', 'Bootstrap', 'Jquery', 'SASS'];
 
     const skills3 = ['JavaScript', 'Spring Boot', 'Computer Network Wiring'];
 
