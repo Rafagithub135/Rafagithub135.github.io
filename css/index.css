@@ -120,7 +120,12 @@ ul {
     max-height: 100px;
     width: 100vw;
     border-radius: 50%;
-    margin: 10px auto;
+    margin: 20px auto;
+}
+
+.vtad {
+    font-weight: bold;
+    font-size: 35px;
 }
 
 .counter {
@@ -174,7 +179,8 @@ ul {
 }
 
 #vettix {
-    max-width: 500px;
+    height: 800px;
+    width: 700px;
     max-height: 800px;
 }
 
