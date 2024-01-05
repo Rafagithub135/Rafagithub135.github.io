@@ -32,6 +32,14 @@
     for (let skill of skills3) {
         document.querySelector("#skills-list3").innerHTML += `<li>${skill}</li>`;
 }
+
+        let image = document.getElementById("vettix");
+        let images = ['Images/VET-TIX-Baseball-Poster-HORIZ.jpg', 'Images/VET-TIX-Football_Flyer_FRONT_WEB.jpg', 'Images/VET-TIX-Racecar-Driver-Poster.jpg', 'Images/VETTIX_2xxxX5xxxjpg.jpg', 'Images/VetTixBasketballFlyer.jpg', 'Images/VetTixFlyer_8.5inx11in_FRONT.jpg', 'Images/VetTixHockeyFlyer.jpg', 'Images/VetTixHockeyHoriz2.jpg', 'Images/VetTixRockGirl8x11.jpg', 'Images/VetTixRockGirlWide.jpg'];
+        setInterval(function () {
+            let random = Math.floor(Math.random() * 10);
+            image.src = images[random];
+        }, 5000);
+
     var write = document.getElementById('write');
     write.addEventListener('click', encodeInput);
     function encodeInput() {

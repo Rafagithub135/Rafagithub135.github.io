@@ -114,6 +114,15 @@ ul {
     margin: 0 20em;
 }
 
+.vettix {
+    display: flex;
+    justify-content: center;
+    max-height: 100px;
+    width: 100vw;
+    border-radius: 50%;
+    margin: 10px auto;
+}
+
 .counter {
     height: 15px;
 }
@@ -162,6 +171,11 @@ ul {
     height: 200px;
     width: 200px;
     border-radius: 50%;
+}
+
+#vettix {
+    max-width: 500px;
+    max-height: 800px;
 }
 
 .counter {
