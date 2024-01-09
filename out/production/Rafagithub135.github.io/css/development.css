@@ -1,3 +1,16 @@
+:root {
+    --main-bg-color: #000000;
+    --main-text-color: #ffffff;
+    --h1-color: #ff0000;
+    --h2-color: #ff8c00;
+    --h3-color: #ffff00;
+    --anchor: khaki;
+    --anchor-visited: tan;
+    --anchor-active: green;
+    --brown: #8b4513;
+    --orangered: orangered;
+}
+
 body {
     background-image: url("/Images/computer_background.jpeg");
     background-repeat: no-repeat;
@@ -5,8 +18,16 @@ body {
     height: 100vh;
 }
 
+h1 {
+    color: var(--h1-color);
+    font-family: "Times New Roman", Times, serif;
+    font-size: 75px;
+    font-weight: bold;
+    text-align: center;
+}
+
 h2 {
-    color: red;
+    color: var(--h2-color);
     font-family: "Times New Roman", Times, serif;
     font-size: 50px;
     font-weight: bold;
@@ -14,7 +35,7 @@ h2 {
 }
 
 h3 {
-    color: orange;
+    color: var(--h3-color);
     font-family: "Times New Roman", Times, serif;
     font-size: 40px;
     font-weight: bold;
@@ -25,4 +46,86 @@ li {
     color: khaki;
     font-size: 20px;
     font-weight: bold;
+}
+
+li a:hover {
+    color: var(--h1-color);
+    font-weight: bold;
+}
+
+a {
+    color: var(--anchor);
+    font-size: 20px;
+    font-weight: bold;
+}
+
+a:hover {
+    color: var(--h1-color);
+    font-weight: bold;
+}
+
+a:visited {
+    color: var(--anchor-visited);
+    font-weight: bold;
+}
+
+a:active {
+    color: var(--anchor-active);
+    font-weight: bold;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    max-width: 100vw;
+}
+
+.col1 {
+    margin: 1em;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    max-width: 500px;
+}
+
+.codeup-proj {
+    font-weight: bold;
+}
+
+.col1 a {
+    color: var(--orangered);
+}
+
+.col2 {
+    margin: 1em;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    max-width: 500px;
+}
+
+.fcc {
+    font-weight: bold;
+}
+
+.col3 {
+    margin: 1em;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    max-width: 500px;
+}
+
+.outside {
+    font-weight: bold;
+}
+
+@media only screen and (max-width: 600px) {
+    div {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        max-width: 100vw;
+    }
 }
