@@ -1,3 +1,13 @@
+:root {
+    --h2-blue: #006AFF;
+    --background1: olivedrab;
+    --USMCscarlet: #BA152F;
+    --USMCgold: #D8AF36;
+    --sand: #F2E8C9;
+    --navy: #00008b;
+    --small-screen-titles: ;
+}
+
 h1 {
     color: black;
     text-align: center;
@@ -5,7 +15,7 @@ h1 {
 }
 
 h2 {
-    color: #006AFF;
+    color: var(--h2-blue);
     text-align: center;
     font-size: 20px;
 }
@@ -29,7 +39,7 @@ ul {
 .main-page {
     margin-top: 1em;
     display: block;
-    background-color: olivedrab;
+    background-color: var(--background1);
 }
 
 .contact-links {
@@ -40,22 +50,32 @@ ul {
     margin: 0;
     text-align: center;
     font-weight: bold;
-    color: red;
+    color: var(--USMCscarlet);
+}
+
+.hr1 {
+    border: 3px solid var(--USMCscarlet);
+    opacity: 1;
+}
+
+.hr2 {
+    border: 3px solid var(--USMCgold);
+    opacity: 1;
 }
 
 .context {
     font-weight: bold;
-    color: #00008b;
+    color: var(--navy);
 }
 
 .emblem-left {
-    background-color: #BA152F;
+    background-color: var(--USMCscarlet);
     display: flex;
     justify-content: center;
 }
 
 .emblem-right {
-    background-color: #D8AF36;
+    background-color: var(--USMCgold);
     display: flex;
     justify-content: center;
 }
@@ -72,7 +92,13 @@ ul {
 
 .sand {
     width: 100%;
-    background-color: #F2E8C9;
+    background-color: var(--sand);
+}
+
+.skills-title {
+    color: var(--h2-blue);
+    text-align: center;
+    font-size: 30px;
 }
 
 .skills {
@@ -88,8 +114,34 @@ ul {
     margin: 0 20em;
 }
 
+.vettix {
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    margin: 20px auto;
+}
+
+.vtad {
+    font-weight: bold;
+    font-size: 35px;
+}
+
 .counter {
     height: 15px;
+}
+
+.no-hate {
+    background-color: #006AFF;
+    color: black;
+    font-weight: bold;
+    display: flex;
+    justify-content: flex-start;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    right: 0;
+    margin-right: 10px;
+    padding: .5em;
 }
 
 #mtd {
@@ -100,7 +152,6 @@ ul {
 }
 
 #skills {
-    color: #006AFF;
     text-align: center;
     font-size: 30px;
 }
@@ -125,6 +176,40 @@ ul {
     border-radius: 50%;
 }
 
+#vettix {
+    height: 800px;
+    width: 700px;
+    max-height: 800px;
+}
+
 .counter {
     height: 15px;
+}
+
+@media screen and (max-width: 1040px) {
+    .space {
+        margin: 0 1em;
+    }
+
+    .name {
+        font-size: 50px;
+    }
+}
+
+@media screen and (max-width: 530px) {
+    .name {
+        font-size: 25px;
+    }
+    .title {
+        color: var(--navy);
+    }
+    .skills-title {
+        color: var(--navy);
+    }
+    .ref-title a {
+        color: var(--navy);
+    }
+    p a {
+        color: var(--navy);
+    }
 }

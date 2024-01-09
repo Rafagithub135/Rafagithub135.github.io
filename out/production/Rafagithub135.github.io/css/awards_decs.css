@@ -1,7 +1,15 @@
+:root {
+    --hr-color: #172C7F;
+}
+
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+}
+
+body {
+    background-color: grey;
 }
 
 h1 {
@@ -17,12 +25,16 @@ h2 {
     justify-content: center;
     width: 100vw;
     text-align: center;
-    color: #172C7F;
+    color: var(--hr-color);
     font-size: 40px;
 }
 
+li {
+    font-weight: bold;
+}
+
 hr {
-    border: 3px solid #172C7F;
+    border: 3px solid var(--hr-color);
 }
 
 .ribbon-section {
@@ -56,6 +68,18 @@ hr {
     gap: 16px;
 }
 
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 600px;
+    padding: 10px 5px;
+    margin: 0 auto;
+    gap: 10px;
+
+}
+
 .certs img {
     width: 100%;
     max-width: 600px;
@@ -76,7 +100,42 @@ hr {
     margin: 0 auto;
 }
 
-section::after {
+.certs::after {
     content: "";
-    width: 350px;
+    width: 600px;
+}
+
+@media screen and (max-width: 360px) {
+    .ribbon-section {
+        display: flex;
+        justify-content: center;
+        /*width: 350px;*/
+        max-width: 350px;
+        margin: 0;
+        padding: 0;
+    }
+
+    .ribbon-section img {
+        width: 350px;
+    }
+
+    .ribbons-list {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        max-width: 350px;
+        padding: 0;
+        margin: 0 auto;
+    }
+
+    .certs {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        max-width: 350px;
+        padding: 0;
+        margin: 0 auto;
+    }
 }

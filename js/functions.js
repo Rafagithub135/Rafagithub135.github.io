@@ -34,7 +34,7 @@
 }
 
         let image = document.getElementById("vettix");
-        let images = ['Images/VET-TIX-Baseball-Poster-HORIZ.jpg', 'Images/VET-TIX-Football_Flyer_FRONT_WEB.jpg', 'Images/VET-TIX-Racecar-Driver-Poster.jpg', 'Images/VETTIX_2xxxX5xxxjpg.jpg', 'Images/VetTixBasketballFlyer.jpg', 'Images/VetTixFlyer_8.5inx11in_FRONT.jpg', 'Images/VetTixHockeyFlyer.jpg', 'Images/VetTixHockeyHoriz2.jpg', 'Images/VetTixRockGirl8x11.jpg', 'Images/VetTixRockGirlWide.jpg'];
+        let images = ['Images/VET-TIX-Baseball-Poster-HORIZ.jpg', 'Images/VET-TIX-Football_Flyer_FRONT_WEB.jpg', 'Images/VET-TIX-Racecar-Driver-Poster.jpg', 'Images/VetTixBasketballFlyer.jpg', 'Images/VetTixFlyer_8.5inx11in_FRONT.jpg', 'Images/VetTixHockeyFlyer.jpg', 'Images/VetTixHockeyHoriz2.jpg', 'Images/VetTixRockGirl8x11.jpg'];
         setInterval(function () {
             let random = Math.floor(Math.random() * 10);
             image.src = images[random];
