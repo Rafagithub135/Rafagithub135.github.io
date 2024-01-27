@@ -141,7 +141,8 @@ ul {
     position: absolute;
     right: 0;
     margin-right: 10px;
-    padding: .5em;
+    margin-bottom: 20px;
+    padding: 1em;
 }
 
 #mtd {
@@ -180,6 +181,7 @@ ul {
     height: 800px;
     width: 700px;
     max-height: 800px;
+    transition: .4s;
 }
 
 .counter {
