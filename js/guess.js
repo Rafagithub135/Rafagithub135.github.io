@@ -1,22 +1,18 @@
 "use strict";
 (function () {
-        function checkGuess() {
-            let random = Math.floor((Math.random() * 100) + 1);
-            document.getElementById("mynum").innerHTML = `${random}`;
-            let guess = prompt("Enter a number between 1 and 100");
-            console.log(guess);
-            let count = 1;
-            while (guess != random) {
-                if (guess > random) {
-                    guess = prompt("Too high! Guess again!");
-                } else if (guess < random) {
-                    guess = prompt("Too low! Guess again!");
-                }
-                console.log(guess);
-                console.log(count);
-                count++;
+        let random = Math.floor((Math.random() * 100) + 1);
+        let count = 1;
+        let guess = document.querySelector("#guess");
+        let lastGuess = document.querySelector("#lastGuess");
+
+        while (guess != random) {
+            if (guess > random) {
+                lastGuess.innerText = lastGuess + " is too high! Guess again!";
+            } else if (guess < random) {
+                lastGuess.innerText = lastGuess + " is too low! Guess again!";
             }
-            alert("Congratulations! You guessed the right number, which was " + random + " It took you " + count + " guesses.");
+            count++;
         }
+        lastGuess.innerText = lastGuess + " is correct! It took you " + count + " tries!";
     }
 )();
