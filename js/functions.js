@@ -34,11 +34,11 @@
 }
 
         let image = document.getElementById("vettix");
-        let images = ['Images/FlyersBruins.jpg', 'Images/PhilliesReds.jpg', 'Images/VET-TIX-Baseball-Poster-HORIZ.jpg', 'Images/VET-TIX-Football_Flyer_FRONT_WEB.jpg', 'Images/CitizensBankPark.jpg', 'Images/VetTixBasketballFlyer.jpg', 'Images/VetTixFlyer_8.5inx11in_FRONT.jpg', 'Images/VetTixHockeyFlyer.jpg', 'Images/VetTixRockGirl8x11.jpg', 'Images/DoverMotorSpeedway.jpg', 'Images/VET-TIX-Racecar-Driver-Poster.jpg'];
+        let images = ['Images/FlyersBruins.jpg', 'Images/PhilliesReds.jpg', 'Images/VET-TIX-Baseball-Poster-HORIZ.jpg', 'Images/VET-TIX-Football_Flyer_FRONT_WEB.jpg', 'Images/CitizensBankPark.jpg', 'Images/VetTixBasketballFlyer.jpg', 'Images/VetTixHockeyFlyer.jpg', 'Images/VetTixRockGirl8x11.jpg', 'Images/DoverMotorSpeedway.jpg', 'Images/VET-TIX-Racecar-Driver-Poster.jpg'];
         setInterval(function () {
-            let random = Math.floor(Math.random() * 11);
+            let random = Math.floor(Math.random() * 10);
             image.src = images[random];
-        }, 2000);
+        }, 1500);
 
     let write = document.getElementById('write');
     write.addEventListener('click', encodeInput);
