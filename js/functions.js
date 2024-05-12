@@ -38,7 +38,7 @@
         setInterval(function () {
             let random = Math.floor(Math.random() * 10);
             image.src = images[random];
-        }, 1500);
+        }, 3000);
 
     let write = document.getElementById('write');
     write.addEventListener('click', encodeInput);
