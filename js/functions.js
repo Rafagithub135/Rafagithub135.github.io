@@ -15,11 +15,11 @@
 
     (() => {
 
-    const skills = ['HTML', 'Java', 'Ajax', 'Python', 'Responsive Web Design'];
+    const skills = ['HTML', 'Java', 'Ajax', 'Python', 'Computer Network Wiring'];
 
     const skills2 = ['CSS', 'Bootstrap', 'Jquery', 'SASS'];
 
-    const skills3 = ['JavaScript', 'Spring Boot', 'Computer Network Wiring'];
+    const skills3 = ['JavaScript', 'Spring Boot', 'Swift', 'Responsive Web Design'];
 
     for (let skill of skills) {
         document.querySelector("#skills-list1").innerHTML += `<li>${skill}</li>`;
@@ -34,9 +34,9 @@
 }
 
         let image = document.getElementById("vettix");
-        let images = ['Images/FlyersBruins.jpg', 'Images/PhilliesReds.jpg', 'Images/VET-TIX-Baseball-Poster-HORIZ.jpg', 'Images/VET-TIX-Football_Flyer_FRONT_WEB.jpg', 'Images/CitizensBankPark.jpg', 'Images/VetTixBasketballFlyer.jpg', 'Images/VetTixHockeyFlyer.jpg', 'Images/VetTixRockGirl8x11.jpg', 'Images/DoverMotorSpeedway.jpg', 'Images/VET-TIX-Racecar-Driver-Poster.jpg', 'Images/RedskinsJets.jpg', 'Images/PhilliesPirates0411'];
+        let images = ['Images/FlyersBruins.jpg', 'Images/PhilliesReds.jpg', 'Images/VET-TIX-Baseball-Poster-HORIZ.jpg', 'Images/VET-TIX-Football_Flyer_FRONT_WEB.jpg', 'Images/CitizensBankPark.jpg', 'Images/VetTixBasketballFlyer.jpg', 'Images/VetTixHockeyFlyer.jpg', 'Images/VetTixRockGirl8x11.jpg', 'Images/DoverMotorSpeedway.jpg', 'Images/VET-TIX-Racecar-Driver-Poster.jpg', 'Images/RedskinsJets.jpg'];
         setInterval(function () {
-            let random = Math.floor(Math.random() * 12);
+            let random = Math.floor(Math.random() * 11);
             image.src = images[random];
         }, 3000);
 

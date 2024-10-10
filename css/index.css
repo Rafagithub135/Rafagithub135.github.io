@@ -20,7 +20,15 @@ h2 {
     font-size: 20px;
 }
 
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
 ul {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -103,6 +111,8 @@ ul {
 
 .skills {
     margin: 0;
+    font-weight: bold;
+    color: var(--sand);
 }
 
 .buttons {
