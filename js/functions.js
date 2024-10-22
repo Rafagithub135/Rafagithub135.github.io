@@ -1,19 +1,21 @@
 "use strict";
 
-    function calculateAge() {
-        let today = new Date();
-        let workStart = new Date("April 10, 1983");
-        let age = today.getFullYear() - workStart.getFullYear();
-        let m = today.getMonth() - workStart.getMonth();
-        if (m < 0 || (m === 0 && today.getDate() < workStart.getDate())) {
-            age--;
-        }
-        return age;
+// Function to calculate how many years since I started working
+function calculateAge() {
+    let today = new Date();
+    let workStart = new Date("April 10, 1983");
+    let age = today.getFullYear() - workStart.getFullYear();
+    let m = today.getMonth() - workStart.getMonth();
+    if (m < 0 || (m === 0 && today.getDate() < workStart.getDate())) {
+        age--;
     }
+    return age;
+}
 
-    calculateAge(new Date());
+calculateAge(new Date());
 
-    (() => {
+// Function to enter my skills and abilities
+(() => {
 
     const skills = ['HTML', 'Java', 'Ajax', 'Python', 'Computer Network Wiring'];
 
@@ -31,17 +33,20 @@
 
     for (let skill of skills3) {
         document.querySelector("#skills-list3").innerHTML += `<li>${skill}</li>`;
-}
+    }
 
-        let image = document.getElementById("vettix");
-        let images = ['Images/FlyersBruins.jpg', 'Images/PhilliesReds.jpg', 'Images/VET-TIX-Baseball-Poster-HORIZ.jpg', 'Images/VET-TIX-Football_Flyer_FRONT_WEB.jpg', 'Images/CitizensBankPark.jpg', 'Images/VetTixBasketballFlyer.jpg', 'Images/VetTixHockeyFlyer.jpg', 'Images/VetTixRockGirl8x11.jpg', 'Images/DoverMotorSpeedway.jpg', 'Images/VET-TIX-Racecar-Driver-Poster.jpg', 'Images/RedskinsJets.jpg'];
-        setInterval(function () {
-            let random = Math.floor(Math.random() * 11);
-            image.src = images[random];
-        }, 3000);
+    // Function to display random images for Vettix advertisement
+    let image = document.getElementById("vettix");
+    let images = ['Images/FlyersBruins.jpg', 'Images/PhilliesReds.jpg', 'Images/VET-TIX-Baseball-Poster-HORIZ.jpg', 'Images/VET-TIX-Football_Flyer_FRONT_WEB.jpg', 'Images/CitizensBankPark.jpg', 'Images/VetTixBasketballFlyer.jpg', 'Images/VetTixHockeyFlyer.jpg', 'Images/VetTixRockGirl8x11.jpg', 'Images/DoverMotorSpeedway.jpg', 'Images/VET-TIX-Racecar-Driver-Poster.jpg', 'Images/RedskinsJets.jpg'];
+    setInterval(function () {
+        let random = Math.floor(Math.random() * 11);
+        image.src = images[random];
+    }, 3000);
 
+    //     Function to encode a message
     let write = document.getElementById('write');
     write.addEventListener('click', encodeInput);
+
     function encodeInput() {
         let statement = prompt('Enter the message you would like to encode.');
         let phrase = '';
