@@ -5,6 +5,7 @@ function calculateAge() {
     let today = new Date();
     let workStart = new Date("April 10, 1983");
     let age = today.getFullYear() - workStart.getFullYear();
+    // The four lines below are to prevent the age from changing prior to the workStart date.
     let m = today.getMonth() - workStart.getMonth();
     if (m < 0 || (m === 0 && today.getDate() < workStart.getDate())) {
         age--;
@@ -19,7 +20,7 @@ calculateAge(new Date());
 
     const skills = ['HTML', 'Java', 'Ajax', 'Python', 'Computer Network Wiring'];
 
-    const skills2 = ['CSS', 'Bootstrap', 'Jquery', 'SASS'];
+    const skills2 = ['CSS', 'Bootstrap', 'Jquery', 'SASS', 'SQL'];
 
     const skills3 = ['JavaScript', 'Spring Boot', 'Swift', 'Responsive Web Design'];
 
