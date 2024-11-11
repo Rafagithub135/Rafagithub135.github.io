@@ -22,7 +22,7 @@ calculateAge(new Date());
 
     const skills2 = ['CSS', 'Bootstrap', 'Jquery', 'SASS', 'SQL'];
 
-    const skills3 = ['JavaScript', 'Spring Boot', 'Swift', 'Responsive Web Design'];
+    const skills3 = ['JavaScript', 'Spring Boot', 'Swift', 'SQLite', 'Responsive Web Design'];
 
     for (let skill of skills) {
         document.querySelector("#skills-list1").innerHTML += `<li>${skill}</li>`;
