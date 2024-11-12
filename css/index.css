@@ -58,6 +58,11 @@ ul {
     overflow: hidden;
 }
 
+img {
+    max-width: 500px;
+    max-height: 500px;
+}
+
 .name {
     font-size: 75px;
     text-align: center;
