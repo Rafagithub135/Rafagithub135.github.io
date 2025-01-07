@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: sandybrown;
+}
+
+body {
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+input {
+    margin: 60px auto;
+    height: 3rem;
+    font-size: 2rem;
+}
+
+.div1, .div2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.div1 {
+
+}
+
+.div2 {
+    /*font-size: 5rem;*/
+}
+
+.div3 {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.timerLabel {
+    font-size: 3.5rem;
+    margin: auto;
+    text-align: center;
+    font-weight: bold;
+}
+
+p {
+    font-size: 2.5rem;
+    margin: auto;
+    text-align: center;
+    font-weight: bold;
+}
+
+#minutes, #seconds {
+    font-size: 6rem;
+    margin: auto;
+    text-align: center;
+    font-weight: bold;
+}
+
+#btn1, #btn2 {
+    display: flex;
+    flex-direction: row;
+    align-content: space-around;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 20px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #fff;
+    font-size: 1rem;
+    cursor: pointer;
+}
