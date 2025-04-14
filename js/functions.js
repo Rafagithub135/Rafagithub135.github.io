@@ -18,9 +18,9 @@ calculateAge(new Date());
 // Function to enter my skills and abilities
 (() => {
 
-    const skills = ['HTML', 'Java', 'Ajax', 'Python', 'Computer Network Wiring', 'MySQL','CSS', 'Bootstrap', 'Jquery', 'SASS'];
+    const skills = ['HTML', 'CSS', 'JavaScript', 'Bootstrap', 'Jquery', 'Ajax', 'Java', 'MySQL', 'SASS', 'Python'];
 
-    const skills2 = ['SQL', 'JavaScript', 'Spring Boot', 'Swift', 'SQLite', 'Responsive Web Design'];
+    const skills2 = ['SQL', 'Spring Boot','SQLite', 'Swift',  'Responsive Web Design', 'Computer Network Wiring'];
 
     const skills3 = [];
 
