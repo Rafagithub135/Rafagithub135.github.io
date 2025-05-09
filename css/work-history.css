@@ -12,7 +12,7 @@
     --ANGSky: #0DCAF0;
     --ANGGreen: #008000;
     --Year: antiquewhite;
---OrangeRed: orangered;
+    --OrangeRed: orangered;
     --VAText: #f8f8ff;
     --VATitle: #f0fff0;
     --CAANGText: #ffebcd;
@@ -71,6 +71,18 @@ p {
 .location {
     font-weight: bold;
     color: var(--Location);
+}
+
+.dover {
+    color: khaki;
+}
+
+#dover {
+    background-color: var(--BlueText);
+}
+
+#amcm {
+    color: orangered;
 }
 
 #vetInd {
