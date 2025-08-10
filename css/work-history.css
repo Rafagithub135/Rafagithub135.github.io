@@ -31,7 +31,6 @@ body {
     background-color: var(--background);
 }
 
-
 h2 {
     font-weight: bold;
     color: var(--BlueText);
@@ -75,6 +74,13 @@ p {
 
 .dover {
     color: khaki;
+}
+
+.info {
+    font-size: 20px;
+    font-family: "Times New Roman", serif;
+    font-weight: bold;
+    color: var(--OrangeRed);
 }
 
 #dover {

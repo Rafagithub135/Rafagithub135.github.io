@@ -1,0 +1,54 @@
+:root {
+    --background: olivedrab;
+    --VABlue: #629BCD;
+    --BlueText: #006AFF;
+    --Location: khaki;
+    --UberBlack: #212529;
+    --UberRed: #FF0000;
+    --LyftPink: #FF00E2;
+    --LyftText: #FAEBD7;
+    --LyftPurple: #52008B;
+    --ANGBlue: #006AFF;
+    --ANGSky: #0DCAF0;
+    --ANGGreen: #008000;
+    --Year: antiquewhite;
+    --OrangeRed: orangered;
+    --VAText: #f8f8ff;
+    --VATitle: #f0fff0;
+    --CAANGText: #ffebcd;
+    --APTBlue: #1B5189;
+    --APTYellow: #EDE432;
+    --APTText: #00FFFF;
+    --USMCText: navy;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 1em;
+}
+
+body {
+    background-color: var(--ANGSky);
+}
+
+div {
+    background-color: var(--background);
+    border: 5px solid var(--APTBlue);
+    border-radius: 25px;
+    padding: 20px;
+    margin: 20px;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 60px;
+}
+
+p {
+    display: flex;
+    justify-content: space-between;
+    color: var(--APTBlue);
+    font-size: 25px;
+}
