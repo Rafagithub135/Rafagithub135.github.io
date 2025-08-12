@@ -52,3 +52,11 @@ p {
     color: var(--APTBlue);
     font-size: 25px;
 }
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 100px;
+    width: 200px;
+}
