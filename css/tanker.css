@@ -28,14 +28,19 @@
 }
 
 body {
-    background-color: var(--ANGSky);
+    background-image: url('../Images/KC-135E.jpg');
+    /*background-size: cover;*/
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
+/*I used a text-shadow property to make the text pop and allow all text to be read over the background photo of the C-5.  The syntax is text-shadow:  offset-x offset-y blur-radius color;.  */
 h1 {
     display: flex;
     justify-content: center;
     font-weight: bold;
-    font-size: 60px;
+    font-size: 80px;
     text-shadow: -1px -1px 2px black, 0 0 25px white, 0 0 5px whitesmoke;
 }
 
@@ -43,14 +48,22 @@ h3 {
     display: flex;
     justify-content: center;
     font-weight: bold;
-    font-size: 30px;
+    font-size: 50px;
+    text-shadow: -1px -1px 2px black, 0 0 25px white, 0 0 5px whitesmoke;
+}
+
+h4 {
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 45px;
     text-shadow: -1px -1px 2px black, 0 0 25px white, 0 0 5px whitesmoke;
 }
 
 p {
     display: flex;
     justify-content: space-between;
-    color: var(--APTBlue);
-    font-size: 20px;
+    color: var(--LyftPink);
+    font-size: 40px;
     text-shadow: -1px -1px 2px black, 0 0 25px white, 0 0 5px whitesmoke;
 }
