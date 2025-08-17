@@ -40,6 +40,10 @@ p {
     color: var(--OrangeRed);
 }
 
+.aclink {
+    text-decoration: none;
+}
+
 .text1 {
     font-size: 35px;
     font-family: "Times New Roman", serif;
