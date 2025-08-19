@@ -1,0 +1,76 @@
+:root {
+    --background: olivedrab;
+    --VABlue: #629BCD;
+    --BlueText: #006AFF;
+    --Location: khaki;
+    --UberBlack: #212529;
+    --UberRed: #FF0000;
+    --LyftPink: #FF00E2;
+    --LyftText: #FAEBD7;
+    --LyftPurple: #52008B;
+    --ANGBlue: #006AFF;
+    --ANGSky: #0DCAF0;
+    --ANGGreen: #008000;
+    --Year: antiquewhite;
+    --OrangeRed: orangered;
+    --VAText: #f8f8ff;
+    --VATitle: #f0fff0;
+    --CAANGText: #ffebcd;
+    --APTBlue: #1B5189;
+    --APTYellow: #EDE432;
+    --APTText: #00FFFF;
+    --USMCText: navy;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 1em;
+}
+
+body {
+    background-image: url('../Images/C-46A.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+/*I used a text-shadow property to make the text pop and allow all text to be read over the background photo of the C-5.  The syntax is text-shadow:  offset-x offset-y blur-radius color;.  */
+h1 {
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 80px;
+    text-shadow: -1px -1px 2px black, 0 0 25px white, 0 0 5px whitesmoke;
+}
+
+h2 {
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 60px;
+    text-shadow: -1px -1px 2px black, 0 0 25px white, 0 0 5px whitesmoke;}
+
+h3 {
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 50px;
+    text-shadow: -1px -1px 2px black, 0 0 25px white, 0 0 5px whitesmoke;
+}
+
+h4 {
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 45px;
+    text-shadow: -1px -1px 2px black, 0 0 25px white, 0 0 5px whitesmoke;
+}
+
+p {
+    display: flex;
+    justify-content: space-between;
+    color: var(--LyftPink);
+    font-size: 40px;
+    text-shadow: -1px -1px 2px black, 0 0 25px white, 0 0 5px whitesmoke;
+}
