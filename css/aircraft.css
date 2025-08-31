@@ -77,3 +77,28 @@ img {
     height: 100px;
     width: 200px;
 }
+
+.container {
+    display: grid;
+    grid-template-rows: auto auto auto;
+    grid-template-columns: 1fr;
+    justify-content: center;
+    align-items: center;}
+
+.sec2 {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    /*justify-content: center;*/
+    align-items: center;
+    gap: 20px;
+}
+
+.head1 {
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: 1fr;
+    text-align: center;
+    font-weight: bold;
+    text-shadow: -1px -1px 2px black, 0 0 25px white, 0 0 5px whitesmoke;
+}
