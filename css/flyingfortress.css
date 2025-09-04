@@ -74,3 +74,13 @@ p {
     font-size: 40px;
     text-shadow: -1px -1px 2px black, 0 0 25px white, 0 0 5px whitesmoke;
 }
+
+table, th, td {
+    border: 1px solid var(--UberRed);
+    padding: 10px;
+    background-color: var(--Year);
+}
+
+th {
+    text-align: center;
+}
