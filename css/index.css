@@ -134,6 +134,12 @@ img {
     background-color: var(--clr-sand);
 }
 
+.skills-container {
+    align-items: center;
+    padding: 1em;
+    margin: 0;
+}
+
 .skills-title {
     color: var(--clr-h2-blue);
     text-align: center;
@@ -200,6 +206,13 @@ img {
     margin-right: 10px;
     margin-bottom: 20px;
     padding: 1em;
+}
+
+.no-hate p {
+    font-size: 20px;
+    display: flex;
+    text-align: center;
+    align-items: center;
 }
 
 #mtd {
