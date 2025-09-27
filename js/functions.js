@@ -38,11 +38,10 @@ calculateAge(new Date());
 
     // Function to display random images for Vettix advertisement
     let image = document.getElementById("vettix");
-    let images = ['Images/FlyersBruins.jpg', 'Images/PhilliesReds.jpg', 'Images/CitizensBankPark.jpg', 'Images/VetTixBasketballFlyer.jpg', 'Images/VetTixRockGirl8x11.jpg', 'Images/DoverMotorSpeedway.jpg', 'Images/VET-TIX-Racecar-Driver-Poster.jpg', 'Images/RedskinsJets.jpg', 'Images/FlyersCanadians.jpg', 'Images/Philadelphia_Wings.jpg'];
-    setInterval(function () {
-        let random = Math.floor(Math.random() * 10);
+    let images = ['Images/FlyersBruins.jpg', 'Images/PhilliesReds.jpg', 'Images/CitizensBankPark.jpg', 'Images/VetTixBasketballFlyer.jpg', 'Images/VetTixRockGirl8x11.jpg', 'Images/DoverMotorSpeedway.jpg', 'Images/VET-TIX-Racecar-Driver-Poster.jpg', 'Images/RedskinsJets.jpg', 'Images/FlyersCanadians.jpg', 'Images/Philadelphia_Wings.jpg', 'Images/PhilliesMarlins1.jpg', 'Images/PhilliesMarlins2.jpg'];    setInterval(function () {
+        let random = Math.floor(Math.random() * 12);
         image.src = images[random];
-    }, 3000);
+    }, 4000);
 
     //     Function to encode a message
     let write = document.getElementById('write');
