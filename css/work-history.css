@@ -20,6 +20,8 @@
     --APTYellow: #EDE432;
     --APTText: #00FFFF;
     --USMCText: navy;
+    --clr-USMCscarlet: #BA152F;
+    --clr-USMCgold: #D8AF36;
 }
 
 * {
@@ -31,35 +33,32 @@ body {
     background-color: var(--background);
 }
 
-h2 {
-    font-weight: bold;
-    color: var(--BlueText);
-}
-
 p {
     color: var(--OrangeRed);
 }
 
 .aclink {
     text-decoration: none;
+    color: #71F53E;
+    text-shadow: 2px 2px var(--UberBlack);
 }
 
 .text1 {
-    font-size: 35px;
+    font-size: 40px;
     font-family: "Times New Roman", serif;
     font-weight: bold;
     text-align: start;
 }
 
 .text2 {
-    font-size: 25px;
+    font-size: 30px;
     font-family: "Times New Roman", serif;
     font-weight: bold;
     text-align: start;
 }
 
 .text3 {
-    font-size: 20px;
+    font-size: 25px;
     font-family: "Times New Roman", serif;
     font-weight: bold;
     text-align: start;
@@ -69,22 +68,13 @@ p {
 .year {
     font-weight: bold;
     color: var(--Year);
+    text-shadow: 2px 2px var(--UberBlack);
 }
 
 .location {
     font-weight: bold;
     color: var(--Location);
-}
-
-.dover {
-    color: khaki;
-}
-
-.info {
-    font-size: 20px;
-    font-family: "Times New Roman", serif;
-    font-weight: bold;
-    color: var(--OrangeRed);
+    text-shadow: 2px 2px var(--UberBlack);
 }
 
 #ccp {
@@ -92,17 +82,39 @@ p {
     border: 2px solid var(--VATitle);
 }
 
+#ccpt {
+    color: var(--VATitle);
+    text-shadow: 2px 2px var(--clr-USMCgold);
+}
+
+#ccpvet1 {
+    color: var(--VATitle);
+    text-shadow: 1px 1px var(--ANGBlue);
+}
+
 #ccpvet2 {
+    text-shadow: 1px 1px var(--Location);
     color: var(--ANGGreen);
 }
 
 #dover {
-    background-color: var(--BlueText);
+    background-color: var(--ANGBlue);
     border: 2px solid var(--USMCText);
 }
 
+#doverTitle {
+    color: khaki;
+    text-shadow: 2px 2px var(--UberBlack);
+}
+
 #amcm {
-    color: orangered;
+    color: #71F53E;
+    text-shadow: 2px 2px var(--UberBlack);
+}
+
+#amcmp {
+    color: #71F53E;
+    text-shadow: 2px 2px var(--UberBlack);
 }
 
 #vetInd {
@@ -112,10 +124,12 @@ p {
 
 #vidd {
     color: var(--VAText);
+    text-shadow: 2px 2px var(--UberBlack);
 }
 
 #vidt {
     color: var(--VATitle);
+    text-shadow: 2px 2px var(--UberBlack);
 }
 
 #uber {
@@ -123,12 +137,19 @@ p {
     border: 2px solid var(--UberRed);
 }
 
+#ubert {
+    color: var(--UberRed);
+    text-shadow: 2px 2px var(--LyftText)
+}
+
 #uberdd {
     color: var(--UberRed);
+    text-shadow: 1px 1px var(--LyftText)
 }
 
 #ubertt {
     color: var(--UberRed);
+    text-shadow: 1px 1px var(--LyftText)
 }
 
 #lyft {
@@ -138,40 +159,42 @@ p {
 
 #lydd {
     color: var(--LyftText);
+    text-shadow: 1px 1px var(--VAText);
 }
 
 #lyftt {
     color: var(--LyftText);
+    text-shadow: 1px 1px var(--VAText);
 }
 
-#njang1 {
+#njang {
     background-color: var(--ANGBlue);
     border: 2px solid var(--LyftPurple);
 }
 
-#njang {
-    color: var(--ANGGreen);
-    text-shadow: 1px 1px var(--UberBlack);
-}
-
 #njangt {
     color: var(--ANGGreen);
-    text-shadow: 1px 1px var(--UberBlack);
+    text-shadow: 2px 2px var(--UberBlack);
 }
 
-#caang {
+#njangd {
+    color: var(--ANGGreen);
+    text-shadow: 2px 2px var(--UberBlack);
+}
+
+#cang {
     background-color: var(--ANGSky);
     border: 2px solid var(--LyftPurple);
 }
 
 #cangdd {
     color: var(--LyftText);
-    text-shadow: 1px 1px var(--UberBlack);
+    text-shadow: 2px 2px var(--UberBlack);
 }
 
 #cangt {
     color: var(--LyftText);
-    text-shadow: 1px 1px var(--UberBlack);
+    text-shadow: 2px 2px var(--UberBlack);
 }
 
 #nvang {
@@ -179,26 +202,38 @@ p {
     border: 2px solid var(--LyftPurple);
 }
 
-#angdd {
+#nvangdd {
     color: var(--CAANGText);
-    text-shadow: 1px 1px var(--UberBlack);
+    text-shadow: 2px 2px var(--UberBlack);
 }
 
 #angt {
     color: var(--CAANGText);
-    text-shadow: 1px 1px var(--UberBlack);
+    text-shadow: 2px 2px var(--UberBlack);
 }
 
 #apt {
     background-color: var(--APTBlue);
+    border: 2px solid var(--VATitle);
+}
+
+#aptt {
+    text-shadow: 2px 2px var(--VATitle);
 }
 
 #aptdd {
     color: var(--APTYellow);
+    text-shadow: 2px 2px var(--UberBlack);
 }
 
 #apttt {
     color: var(--APTText);
+    text-shadow: 2px 2px var(--UberBlack);
+}
+
+#usmc {
+    background-color: var(--clr-USMCscarlet);
+    border: 2px solid var(--clr-USMCgold);
 }
 
 #mcdd {
