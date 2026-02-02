@@ -20,7 +20,7 @@ calculateAge(new Date());
 
     const skills = ['HTML', 'CSS', 'JavaScript', 'Bootstrap', 'Jquery', 'R', 'R Studio', 'Java', 'Kotlin'];
 
-    const skills2 = ['MySQL', 'Sass', 'Python', 'SQL', 'Spring Boot', 'SQLite', 'Swift','Responsive Web Design'];
+    const skills2 = ['MySQL', 'Sass', 'Python', 'SQL', 'Spring Boot', 'SQLite', 'Swift','Responsive Web Design', 'Android Studio'];
 
     const skills3 = ['Ajax', 'Git', 'GitHub', 'MariaDB', 'PostgreSQL', 'IntelliJ', 'Pycharm', 'VS Code', 'Kate'];
 
