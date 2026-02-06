@@ -18,9 +18,9 @@ calculateAge(new Date());
 // Function to enter my skills and abilities
 (() => {
 
-    const skills = ['HTML', 'CSS', 'JavaScript', 'Bootstrap', 'Jquery', 'R', 'R Studio', 'Android Studio', 'Java'];
+    const skills = ['HTML', 'CSS', 'JavaScript', 'Bootstrap', 'Jquery', 'R', 'R Studio', 'Java', 'Kotlin'];
 
-    const skills2 = ['MySQL', 'Sass', 'Python', 'SQL', 'Spring Boot', 'SQLite', 'Swift','Responsive Web Design'];
+    const skills2 = ['MySQL', 'Sass', 'Python', 'SQL', 'Spring Boot', 'SQLite', 'Swift','Responsive Web Design', 'Android Studio'];
 
     const skills3 = ['Ajax', 'Git', 'GitHub', 'MariaDB', 'PostgreSQL', 'IntelliJ', 'Pycharm', 'VS Code', 'Kate'];
 
@@ -38,8 +38,8 @@ calculateAge(new Date());
 
     // Function to display random images for Vettix advertisement
     let image = document.getElementById("vettix");
-    let images = ['Images/FlyersBruins.jpg', 'Images/PhilliesReds.jpg', 'Images/CitizensBankPark.jpg', 'Images/VetTixRockGirl8x11.jpg', 'Images/DoverMotorSpeedway.jpg', 'Images/VET-TIX-Racecar-Driver-Poster.jpg', 'Images/RedskinsJets.jpg', 'Images/FlyersCanadians.jpg', 'Images/Philadelphia_Wings.jpg', 'Images/PhilliesMarlins1.jpg', 'Images/PhilliesMarlins2.jpg', 'Images/Philly_76ers_Game.jpg'];    setInterval(function () {
-        let random = Math.floor(Math.random() * 12);
+    let images = ['Images/FlyersBruins.jpg', 'Images/PhilliesReds.jpg', 'Images/CitizensBankPark.jpg', 'Images/VetTixBasketballFlyer.jpg', 'Images/VetTixRockGirl8x11.jpg', 'Images/DoverMotorSpeedway.jpg', 'Images/VET-TIX-Racecar-Driver-Poster.jpg', 'Images/RedskinsJets.jpg', 'Images/FlyersCanadians.jpg', 'Images/Philadelphia_Wings.jpg', 'Images/PhilliesMarlins1.jpg', 'Images/PhilliesMarlins2.jpg', 'Images/Philly_76ers_Game.jpg'];    setInterval(function () {
+        let random = Math.floor(Math.random() * 13);
         image.src = images[random];
     }, 4000);
 
