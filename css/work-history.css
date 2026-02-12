@@ -77,9 +77,14 @@ p {
     text-shadow: 2px 2px var(--UberBlack);
 }
 
+#ccpTitle {
+
+}
+
 #ccp {
     background-color: var(--UberBlack);
     border: 2px solid var(--VATitle);
+    text-shadow: 2px 2px yellow;
 }
 
 #ccpt {
